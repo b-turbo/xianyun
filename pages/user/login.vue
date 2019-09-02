@@ -1,6 +1,5 @@
 <template>
   <div class="login">
-      登录首页
   </div>
 </template>
 

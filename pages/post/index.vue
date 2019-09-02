@@ -1,5 +1,5 @@
 <template>
-  <div class="post">攻略首页</div>
+  <div class="post"></div>
 </template>
 
 <script>
