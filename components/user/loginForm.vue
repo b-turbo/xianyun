@@ -72,8 +72,6 @@ export default {
                     }).then(res=>{
                        this.$store.commit('user/setUserInfo',res.data)
                        this.$router.push('/')
-                    }).catch(()=>{
-                        this.$message.error('用户名或者密码无效')
                     })
                 }else{
                     this.$message.error('验证失败')
